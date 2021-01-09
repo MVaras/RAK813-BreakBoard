@@ -1,0 +1,10 @@
+.\objects\regioneu433.o: ..\LoRa_Lib\mac\region\RegionEU433.c
+.\objects\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\regioneu433.o: ..\Board\lora_board\board.h
+.\objects\regioneu433.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\regioneu433.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\regioneu433.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\regioneu433.o: ..\nRF_Lib\components\device\nrf52.h

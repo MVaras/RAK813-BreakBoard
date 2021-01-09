@@ -1,0 +1,431 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Matias Varas, Wisely, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.12.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Matt\Documents\GitHub\RAK813-BreakBoard\Keil5\rak813_breakboard.uvprojx
+Project File Date:  01/09/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling bsp.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\bsp\bsp.c: 0 warnings, 1 error
+compiling boards.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\boards\boards.c: 0 warnings, 1 error
+compiling main.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Apps\LoRaWAN_Demo\main.c: 0 warnings, 1 error
+assembling arm_startup_nrf52.s...
+compiling bsp_btn_ble.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\bsp\bsp_btn_ble.c: 0 warnings, 1 error
+compiling bsp_nfc.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\bsp\bsp_nfc.c: 0 warnings, 1 error
+compiling system_nrf52.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\toolchain\system_nrf52.c: 0 warnings, 1 error
+compiling board.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\board.c: 0 warnings, 1 error
+compiling gpio-board.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\gpio-board.c: 0 warnings, 1 error
+compiling rtc-board.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\rtc-board.c: 0 warnings, 1 error
+compiling sx1276-board.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\sx1276-board.c: 0 warnings, 1 error
+compiling spi-board.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\spi-board.c: 0 warnings, 1 error
+compiling timer.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\timer.c: 0 warnings, 1 error
+compiling utilities.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\lora_board\utilities.c: 0 warnings, 1 error
+compiling utils.c...
+..\Board\lora_board\utils.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif  /* UTILS_H__ */
+..\Board\lora_board\utils.c: 1 warning, 0 errors
+compiling app_lora.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Apps\LoRaWAN_Demo\app_lora.c: 0 warnings, 1 error
+compiling rak_i2c_sht31.c...
+..\Board\sht31.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\peripherals\rak_i2c_sht31.c: 1 warning, 1 error
+compiling rak_spi_drv.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\peripherals\rak_spi_drv.c: 0 warnings, 1 error
+compiling rak_i2c_drv.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\peripherals\rak_i2c_drv.c: 0 warnings, 1 error
+compiling rak_i2c_gps_max7.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\peripherals\rak_i2c_gps_max7.c: 0 warnings, 1 error
+compiling lis3dh_driver.c...
+..\Board\peripherals\lis3dh_driver.c(1639): warning:  #1-D: last line of file ends without a newline
+  /******************* (C) COPYRIGHT 2012 STMicroelectronics *****END OF FILE****/
+..\Board\peripherals\lis3dh_driver.c: 1 warning, 0 errors
+compiling rak_i2c_oled.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\peripherals\rak_i2c_oled.c: 0 warnings, 1 error
+compiling rak_i2c_lis3dh.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\Board\peripherals\rak_i2c_lis3dh.c: 0 warnings, 1 error
+compiling LoRaMac.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\LoRaMac.c: 0 warnings, 1 error
+compiling Region.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\Region.c: 0 warnings, 1 error
+compiling LoRaMacCrypto.c...
+compiling RegionAS923.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionAS923.c: 0 warnings, 1 error
+compiling RegionAU915.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionAU915.c: 0 warnings, 1 error
+compiling RegionCommon.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionCommon.c: 0 warnings, 1 error
+compiling RegionEU868.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionEU868.c: 0 warnings, 1 error
+compiling RegionIN865.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionIN865.c: 0 warnings, 1 error
+compiling RegionKR920.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionKR920.c: 0 warnings, 1 error
+compiling RegionUS915.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionUS915.c: 0 warnings, 1 error
+compiling RegionUS915-Hybrid.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionUS915-Hybrid.c: 0 warnings, 1 error
+compiling RegionCN470.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionCN470.c: 0 warnings, 1 error
+compiling RegionCN779.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionCN779.c: 0 warnings, 1 error
+compiling RegionEU433.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\mac\region\RegionEU433.c: 0 warnings, 1 error
+compiling sx1276.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\radio\sx1276\sx1276.c: 0 warnings, 1 error
+compiling cmac.c...
+compiling gps.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\LoRa_Lib\system\gps.c: 0 warnings, 1 error
+compiling aes.c...
+compiling ble_advertising.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\ble_advertising\ble_advertising.c: 0 warnings, 1 error
+compiling ble_advdata.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\common\ble_advdata.c: 0 warnings, 1 error
+compiling ble_conn_params.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\common\ble_conn_params.c: 0 warnings, 1 error
+compiling ble_srv_common.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\common\ble_srv_common.c: 0 warnings, 1 error
+compiling ble_conn_state.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\common\ble_conn_state.c: 0 warnings, 1 error
+compiling nrf_ble_gatt.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\nrf_ble_gatt\nrf_ble_gatt.c: 0 warnings, 1 error
+compiling gatts_cache_manager.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\gatts_cache_manager.c: 0 warnings, 1 error
+compiling gatt_cache_manager.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\gatt_cache_manager.c: 0 warnings, 1 error
+compiling id_manager.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\id_manager.c: 0 warnings, 1 error
+compiling peer_data_storage.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\peer_data_storage.c: 0 warnings, 1 error
+compiling peer_database.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\peer_database.c: 0 warnings, 1 error
+compiling peer_id.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\peer_id.c: 0 warnings, 1 error
+compiling peer_manager.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\peer_manager.c: 0 warnings, 1 error
+compiling pm_buffer.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\pm_buffer.c: 0 warnings, 1 error
+compiling pm_mutex.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\pm_mutex.c: 0 warnings, 1 error
+compiling security_manager.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\security_manager.c: 0 warnings, 1 error
+compiling security_dispatcher.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\peer_manager\security_dispatcher.c: 0 warnings, 1 error
+compiling ble_nus.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\ble_services\ble_nus\ble_nus.c: 0 warnings, 1 error
+compiling ble_db_discovery.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\ble\ble_db_discovery\ble_db_discovery.c: 0 warnings, 1 error
+compiling nrf_drv_clock.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\clock\nrf_drv_clock.c: 0 warnings, 1 error
+compiling nrf_drv_common.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\common\nrf_drv_common.c: 0 warnings, 1 error
+compiling nrf_drv_gpiote.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\gpiote\nrf_drv_gpiote.c: 0 warnings, 1 error
+compiling nrf_drv_rtc.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\rtc\nrf_drv_rtc.c: 0 warnings, 1 error
+compiling nrf_drv_spi.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\spi_master\nrf_drv_spi.c: 0 warnings, 1 error
+compiling nrf_drv_twi.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\twi_master\nrf_drv_twi.c: 0 warnings, 1 error
+compiling nrf_drv_uart.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\drivers_nrf\uart\nrf_drv_uart.c: 0 warnings, 1 error
+compiling app_button.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\button\app_button.c: 0 warnings, 1 error
+compiling app_fifo.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\fifo\app_fifo.c: 0 warnings, 1 error
+compiling nrf_fstorage_sd.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\fstorage\nrf_fstorage_sd.c: 0 warnings, 1 error
+compiling nrf_fstorage.c...
+compiling fds.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\fds\fds.c: 0 warnings, 1 error
+compiling app_uart_fifo.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\uart\app_uart_fifo.c: 0 warnings, 1 error
+compiling nrf_strerror.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\strerror\nrf_strerror.c: 0 warnings, 1 error
+compiling nrf_section_iter.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_section_vars\nrf_section_iter.c: 0 warnings, 1 error
+compiling nrf_memobj.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_memobj\nrf_memobj.c: 0 warnings, 1 error
+compiling nrf_atfifo.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\atomic_fifo\nrf_atfifo.c: 0 warnings, 1 error
+compiling nrf_balloc.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\balloc\nrf_balloc.c: 0 warnings, 1 error
+compiling nrf_fprintf.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\external\fprintf\nrf_fprintf.c: 0 warnings, 1 error
+compiling nrf_fprintf_format.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\external\fprintf\nrf_fprintf_format.c: 0 warnings, 1 error
+compiling app_error.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\util\app_error.c: 0 warnings, 1 error
+compiling app_error_weak.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\util\app_error_weak.c: 0 warnings, 1 error
+compiling app_util_platform.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\util\app_util_platform.c: 0 warnings, 1 error
+compiling sdk_mapped_flags.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\util\sdk_mapped_flags.c: 0 warnings, 1 error
+compiling retarget.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\uart\retarget.c: 0 warnings, 1 error
+compiling nrf_pwr_mgmt.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c: 0 warnings, 1 error
+compiling app_timer.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\timer\app_timer.c: 0 warnings, 1 error
+compiling nrf_assert.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\util\nrf_assert.c: 0 warnings, 1 error
+compiling app_scheduler.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\scheduler\app_scheduler.c: 0 warnings, 1 error
+compiling nrf_log_frontend.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_log\src\nrf_log_frontend.c: 0 warnings, 1 error
+compiling nrf_log_default_backends.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_log\src\nrf_log_default_backends.c: 0 warnings, 1 error
+compiling nrf_log_str_formatter.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_log\src\nrf_log_str_formatter.c: 0 warnings, 1 error
+compiling SEGGER_RTT.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\external\segger_rtt\SEGGER_RTT.c: 0 warnings, 1 error
+compiling nrf_log_backend_serial.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_log\src\nrf_log_backend_serial.c: 0 warnings, 1 error
+compiling nrf_log_backend_rtt.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\libraries\experimental_log\src\nrf_log_backend_rtt.c: 0 warnings, 1 error
+compiling SEGGER_RTT_Syscalls_KEIL.c...
+compiling SEGGER_RTT_printf.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\external\segger_rtt\SEGGER_RTT_printf.c: 0 warnings, 1 error
+compiling nrf_sdh_soc.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\softdevice\common\nrf_sdh_soc.c: 0 warnings, 1 error
+compiling nrf_sdh_ble.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\softdevice\common\nrf_sdh_ble.c: 0 warnings, 1 error
+compiling nrf_sdh.c...
+..\nRF_Lib\components\device\nrf52.h(146): error:  #5: cannot open source input file "core_cm4.h": No such file or directory
+  #include "core_cm4.h"                               /*!< Cortex-M4 processor and core peripherals                              */
+..\nRF_Lib\components\softdevice\common\nrf_sdh.c: 0 warnings, 1 error
+".\Objects\rak813_breakboard.axf" - 92 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.15.0.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.15.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Matt\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

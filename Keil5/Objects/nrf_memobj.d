@@ -1,0 +1,13 @@
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\libraries\experimental_memobj\nrf_memobj.c
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\libraries\experimental_memobj\nrf_memobj.h
+.\objects\nrf_memobj.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nrf_memobj.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\libraries\util\sdk_errors.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\softdevice\s132\headers\nrf_error.h
+.\objects\nrf_memobj.o: ..\Apps\sdk_config.h
+.\objects\nrf_memobj.o: ..\Board\lora_board\app_config.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\libraries\balloc\nrf_balloc.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\libraries\util\app_util_platform.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\device\compiler_abstraction.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\nrf_memobj.o: ..\nRF_Lib\components\device\nrf52.h

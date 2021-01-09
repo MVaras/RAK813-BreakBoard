@@ -1,0 +1,15 @@
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\libraries\bsp\bsp_btn_ble.c
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\libraries\bsp\bsp_btn_ble.h
+.\objects\bsp_btn_ble.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_ranges.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_types.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_gap.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\nrf_svc.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_l2cap.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_err.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\nrf_error.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_gatt.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\softdevice\s132\headers\ble_gattc.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\bsp_btn_ble.o: ..\nRF_Lib\components\device\nrf52.h

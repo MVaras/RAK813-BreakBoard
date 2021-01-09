@@ -43,13 +43,13 @@ Maintainer: Miguel Luis and Gregory Cristian
 /*!
  * Application IEEE EUI (big endian)
  */
-#define LORAWAN_APPLICATION_EUI                     { 0x70, 0xB3, 0xd5, 0x7E, 0xD0, 0x00, 0x96, 0x5C }
-                                                     //70b3d57ef00046a4   70B3D57E D0007DFA
+#define LORAWAN_APPLICATION_EUI                     { 0x70, 0xB3, 0xD5, 0x7E, 0xD0, 0x03, 0xB1, 0xDF }
+                                                     //70b3d57ef00046a4   60C5A8FFFE00000A
 /*!
  * AES encryption/decryption cipher application key
  */
-#define LORAWAN_APPLICATION_KEY                     { 0xBF, 0x8A, 0x63, 0x43, 0x81, 0xB0, 0x29, 0x0D, 0x34, 0xEC, 0x6E, 0x7E, 0x77, 0xF4, 0x26, 0x4B }
-                                                     //a6b08140dae1d795ebfa5a6dee1f4dbd    09A503D6256F9EF612A15181F583880A
+#define LORAWAN_APPLICATION_KEY                     { 0x14, 0xB1, 0xFF, 0x0B, 0x18, 0xBD, 0x87, 0xA5, 0x3B, 0x7E, 0xA1, 0x56, 0xCE, 0x48, 0x5A, 0x5E }
+                                                     //a6b08140dae1d795ebfa5a6dee1f4dbd    
 /*!
  * Current network ID
  */

@@ -1,0 +1,17 @@
+.\objects\rak_spi_drv.o: ..\Board\peripherals\rak_spi_drv.c
+.\objects\rak_spi_drv.o: ..\Board\peripherals\rak_spi_drv.h
+.\objects\rak_spi_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rak_spi_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rak_spi_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\drivers_nrf\spi_master\nrf_drv_spi.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\libraries\util\nordic_common.h
+.\objects\rak_spi_drv.o: ..\Apps\sdk_config.h
+.\objects\rak_spi_drv.o: ..\Board\lora_board\app_config.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\drivers_nrf\hal\nrf_peripherals.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\device\nrf52832_peripherals.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\libraries\util\sdk_errors.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\softdevice\s132\headers\nrf_error.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\drivers_nrf\hal\nrf_spi.h
+.\objects\rak_spi_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\rak_spi_drv.o: ..\nRF_Lib\components\device\nrf52.h

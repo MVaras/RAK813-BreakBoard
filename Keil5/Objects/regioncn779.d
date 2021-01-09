@@ -1,0 +1,10 @@
+.\objects\regioncn779.o: ..\LoRa_Lib\mac\region\RegionCN779.c
+.\objects\regioncn779.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\regioncn779.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\regioncn779.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\regioncn779.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\regioncn779.o: ..\Board\lora_board\board.h
+.\objects\regioncn779.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\regioncn779.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\regioncn779.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\regioncn779.o: ..\nRF_Lib\components\device\nrf52.h

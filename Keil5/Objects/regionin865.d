@@ -1,0 +1,10 @@
+.\objects\regionin865.o: ..\LoRa_Lib\mac\region\RegionIN865.c
+.\objects\regionin865.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\regionin865.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\regionin865.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\regionin865.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\regionin865.o: ..\Board\lora_board\board.h
+.\objects\regionin865.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\regionin865.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\regionin865.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\regionin865.o: ..\nRF_Lib\components\device\nrf52.h

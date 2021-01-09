@@ -1,0 +1,10 @@
+.\objects\sx1276.o: ..\LoRa_Lib\radio\sx1276\sx1276.c
+.\objects\sx1276.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\sx1276.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\sx1276.o: ..\Board\lora_board\board.h
+.\objects\sx1276.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sx1276.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sx1276.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\sx1276.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sx1276.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\sx1276.o: ..\nRF_Lib\components\device\nrf52.h

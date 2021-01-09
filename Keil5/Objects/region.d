@@ -1,0 +1,12 @@
+.\objects\region.o: ..\LoRa_Lib\mac\region\Region.c
+.\objects\region.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\region.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\region.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\region.o: ..\Board\lora_board\timer.h
+.\objects\region.o: ..\nRF_Lib\components\libraries\timer\app_timer.h
+.\objects\region.o: ..\Apps\sdk_config.h
+.\objects\region.o: ..\Board\lora_board\app_config.h
+.\objects\region.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\region.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\region.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\region.o: ..\nRF_Lib\components\device\nrf52.h

@@ -1,0 +1,10 @@
+.\objects\app_lora.o: ..\Apps\LoRaWAN_Demo\app_lora.c
+.\objects\app_lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\app_lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\app_lora.o: ..\Board\lora_board\board.h
+.\objects\app_lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\app_lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_lora.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\app_lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\app_lora.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\app_lora.o: ..\nRF_Lib\components\device\nrf52.h

@@ -1,0 +1,13 @@
+.\objects\regioncommon.o: ..\LoRa_Lib\mac\region\RegionCommon.c
+.\objects\regioncommon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\regioncommon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\regioncommon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\regioncommon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\regioncommon.o: ..\Board\lora_board\timer.h
+.\objects\regioncommon.o: ..\nRF_Lib\components\libraries\timer\app_timer.h
+.\objects\regioncommon.o: ..\Apps\sdk_config.h
+.\objects\regioncommon.o: ..\Board\lora_board\app_config.h
+.\objects\regioncommon.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\regioncommon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\regioncommon.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\regioncommon.o: ..\nRF_Lib\components\device\nrf52.h

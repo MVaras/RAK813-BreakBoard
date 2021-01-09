@@ -1,0 +1,16 @@
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\ble\peer_manager\gatt_cache_manager.c
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\libraries\util\sdk_common.h
+.\objects\gatt_cache_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gatt_cache_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\gatt_cache_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gatt_cache_manager.o: ..\Apps\sdk_config.h
+.\objects\gatt_cache_manager.o: ..\Board\lora_board\app_config.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\libraries\util\nordic_common.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\device\compiler_abstraction.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\libraries\util\sdk_os.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\libraries\util\sdk_errors.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\softdevice\s132\headers\nrf_error.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\libraries\util\app_util.h
+.\objects\gatt_cache_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\gatt_cache_manager.o: ..\nRF_Lib\components\device\nrf52.h

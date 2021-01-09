@@ -1,0 +1,11 @@
+.\objects\gps.o: ..\LoRa_Lib\system\gps.c
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gps.o: ..\Board\lora_board\board.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\gps.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\gps.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\gps.o: ..\nRF_Lib\components\device\nrf52.h

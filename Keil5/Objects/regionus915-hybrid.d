@@ -1,0 +1,10 @@
+.\objects\regionus915-hybrid.o: ..\LoRa_Lib\mac\region\RegionUS915-Hybrid.c
+.\objects\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\regionus915-hybrid.o: ..\Board\lora_board\board.h
+.\objects\regionus915-hybrid.o: ..\nRF_Lib\components\libraries\util\app_error.h
+.\objects\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\regionus915-hybrid.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\regionus915-hybrid.o: ..\nRF_Lib\components\device\nrf52.h

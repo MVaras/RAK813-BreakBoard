@@ -1,0 +1,13 @@
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\libraries\bsp\bsp_nfc.c
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\libraries\bsp\bsp_nfc.h
+.\objects\bsp_nfc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\libraries\util\sdk_errors.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\softdevice\s132\headers\nrf_error.h
+.\objects\bsp_nfc.o: ..\Apps\sdk_config.h
+.\objects\bsp_nfc.o: ..\Board\lora_board\app_config.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\libraries\bsp\bsp.h
+.\objects\bsp_nfc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\boards\boards.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\drivers_nrf\hal\nrf_gpio.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\device\nrf.h
+.\objects\bsp_nfc.o: ..\nRF_Lib\components\device\nrf52.h
