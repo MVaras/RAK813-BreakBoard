@@ -14,3 +14,14 @@
 .\objects\nrf_strerror.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\nrf_strerror.o: ..\nRF_Lib\components\device\nrf.h
 .\objects\nrf_strerror.o: ..\nRF_Lib\components\device\nrf52.h
+.\objects\nrf_strerror.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\core_cm4.h
+.\objects\nrf_strerror.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\cmsis_version.h
+.\objects\nrf_strerror.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\cmsis_compiler.h
+.\objects\nrf_strerror.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\cmsis_armcc.h
+.\objects\nrf_strerror.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\mpu_armv7.h
+.\objects\nrf_strerror.o: ..\nRF_Lib\components\toolchain\system_nrf52.h
+.\objects\nrf_strerror.o: ..\nRF_Lib\components\device\nrf52_bitfields.h
+.\objects\nrf_strerror.o: ..\nRF_Lib\components\device\nrf51_to_nrf52.h
+.\objects\nrf_strerror.o: ..\nRF_Lib\components\device\nrf52_name_change.h
+.\objects\nrf_strerror.o: ..\nRF_Lib\components\libraries\util\sdk_macros.h
+.\objects\nrf_strerror.o: ..\nRF_Lib\components\libraries\strerror\nrf_strerror.h

@@ -8,3 +8,12 @@
 .\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\libraries\util\nordic_common.h
 .\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\device\nrf.h
 .\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\device\nrf52.h
+.\objects\sdk_mapped_flags.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\core_cm4.h
+.\objects\sdk_mapped_flags.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\cmsis_version.h
+.\objects\sdk_mapped_flags.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\cmsis_compiler.h
+.\objects\sdk_mapped_flags.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\cmsis_armcc.h
+.\objects\sdk_mapped_flags.o: ..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include\mpu_armv7.h
+.\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\toolchain\system_nrf52.h
+.\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\device\nrf52_bitfields.h
+.\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\device\nrf51_to_nrf52.h
+.\objects\sdk_mapped_flags.o: ..\nRF_Lib\components\device\nrf52_name_change.h

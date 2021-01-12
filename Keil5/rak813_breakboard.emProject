@@ -1,0 +1,181 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="rak813_breakboard" target="8" version="2">
+  <project Name="rak813_breakboard">
+    <configuration
+      Name="Common"
+      arm_architecture="v7EM"
+      arm_compiler_variant="SEGGER"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_linker_variant="SEGGER"
+      arm_rtl_variant="SEGGER"
+      arm_simulator_memory_simulation_parameter="RX 00000000,00080000,FFFFFFFF;RWX 20000000,00010000,CDCDCDCD"
+      arm_target_device_name="nRF52832_xxAA"
+      arm_target_interface_type="SWD"
+      debug_start_from_entry_point_symbol="No"
+      debug_target_connection="J-Link"
+      link_linker_script_file="$(StudioDir)/samples/SEGGER_Flash.icf"
+      linker_section_placements_segments="FLASH1 RX 0x00000000 0x00080000;RAM1 RWX 0x20000000 0x00010000"
+      project_directory=""
+      project_type="Executable" />
+    <configuration
+      LIBRARY_IO_TYPE="SEMIHOST (host-formatted)"
+      Name="Internal" />
+    <folder Name="Internal Files">
+      <file file_name="$(StudioDir)/samples/SEGGER_THUMB_Startup.s" />
+      <file file_name="$(StudioDir)/components/toolchain/enbedded_studio/ses_nrf52_startup.s" />
+    </folder>
+    <folder Name="Apps">
+      <file file_name="../Apps/sdk_config.h" />
+      <file file_name="../Apps/Commissioning.h" />
+      <file file_name="../Apps/LoRaWAN_Demo/main.c" />
+    </folder>
+    <folder Name="Board">
+      <file file_name="../nRF_Lib/components/boards/boards.c" />
+      <file file_name="../nRF_Lib/components/libraries/bsp/bsp.c" />
+      <file file_name="../nRF_Lib/components/libraries/bsp/bsp_btn_ble.c" />
+      <file file_name="../nRF_Lib/components/libraries/bsp/bsp_nfc.c" />
+      <file file_name="../nRF_Lib/components/toolchain/arm/arm_startup_nrf52.s">
+        <configuration Name="Internal" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="../nRF_Lib/components/toolchain/system_nrf52.c" />
+    </folder>
+    <folder Name="Board/lora_board">
+      <file file_name="../Board/lora_board/board.c" />
+      <file file_name="../Board/lora_board/gpio-board.c" />
+      <file file_name="../Board/lora_board/rtc-board.c" />
+      <file file_name="../Board/lora_board/spi-board.c" />
+      <file file_name="../Board/lora_board/sx1276-board.c" />
+      <file file_name="../Board/lora_board/timer.c" />
+      <file file_name="../Board/lora_board/utilities.c" />
+      <file file_name="../Board/lora_board/utils.c" />
+      <file file_name="../Apps/LoRaWAN_Demo/app_lora.c" />
+    </folder>
+    <folder Name="Board/peripherals">
+      <file file_name="../Board/peripherals/rak_i2c_sht31.c" />
+      <file file_name="../Board/peripherals/rak_spi_drv.c" />
+      <file file_name="../Board/peripherals/lis3dh_driver.c" />
+      <file file_name="../Board/peripherals/rak_i2c_drv.c" />
+      <file file_name="../Board/peripherals/rak_i2c_gps_max7.c" />
+      <file file_name="../Board/peripherals/rak_i2c_lis3dh.c" />
+      <file file_name="../Board/peripherals/rak_i2c_oled.c" />
+    </folder>
+    <folder Name="LoRa_Lib/mac">
+      <file file_name="../LoRa_Lib/mac/LoRaMac.c" />
+      <file file_name="../LoRa_Lib/mac/LoRaMacCrypto.c" />
+    </folder>
+    <folder Name="LoRa_Lib/mac/region">
+      <file file_name="../LoRa_Lib/mac/region/Region.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionAS923.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionAU915.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionCommon.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionEU868.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionIN865.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionKR920.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionUS915.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionUS915-Hybrid.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionCN470.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionCN779.c" />
+      <file file_name="../LoRa_Lib/mac/region/RegionEU433.c" />
+    </folder>
+    <folder Name="LoRa_Lib/radio">
+      <file file_name="../LoRa_Lib/radio/sx1276/sx1276.c" />
+    </folder>
+    <folder Name="LoRa_Lib/system">
+      <file file_name="../LoRa_Lib/system/crypto/aes.c" />
+      <file file_name="../LoRa_Lib/system/crypto/cmac.c" />
+      <file file_name="../LoRa_Lib/system/gps.c" />
+    </folder>
+    <folder Name="nRF_Lib/ble">
+      <file file_name="../nRF_Lib/components/ble/ble_advertising/ble_advertising.c" />
+      <file file_name="../nRF_Lib/components/ble/common/ble_advdata.c" />
+      <file file_name="../nRF_Lib/components/ble/common/ble_conn_params.c" />
+      <file file_name="../nRF_Lib/components/ble/common/ble_conn_state.c" />
+      <file file_name="../nRF_Lib/components/ble/common/ble_srv_common.c" />
+      <file file_name="../nRF_Lib/components/ble/nrf_ble_gatt/nrf_ble_gatt.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/gatt_cache_manager.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/gatts_cache_manager.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/id_manager.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/peer_data_storage.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/peer_database.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/peer_id.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/peer_manager.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/pm_buffer.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/pm_mutex.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/security_dispatcher.c" />
+      <file file_name="../nRF_Lib/components/ble/peer_manager/security_manager.c" />
+      <file file_name="../nRF_Lib/components/ble/ble_services/ble_nus/ble_nus.c" />
+      <file file_name="../nRF_Lib/components/ble/ble_db_discovery/ble_db_discovery.c" />
+    </folder>
+    <folder Name="nRF_Lib/device_nrf">
+      <file file_name="../nRF_Lib/components/drivers_nrf/clock/nrf_drv_clock.c" />
+      <file file_name="../nRF_Lib/components/drivers_nrf/common/nrf_drv_common.c" />
+      <file file_name="../nRF_Lib/components/drivers_nrf/gpiote/nrf_drv_gpiote.c" />
+      <file file_name="../nRF_Lib/components/drivers_nrf/rtc/nrf_drv_rtc.c" />
+      <file file_name="../nRF_Lib/components/drivers_nrf/spi_master/nrf_drv_spi.c" />
+      <file file_name="../nRF_Lib/components/drivers_nrf/twi_master/nrf_drv_twi.c" />
+      <file file_name="../nRF_Lib/components/drivers_nrf/uart/nrf_drv_uart.c" />
+    </folder>
+    <folder Name="nRF_Lib/libraries">
+      <file file_name="../nRF_Lib/components/libraries/button/app_button.c" />
+      <file file_name="../nRF_Lib/components/libraries/fifo/app_fifo.c" />
+      <file file_name="../nRF_Lib/components/libraries/fstorage/nrf_fstorage.c" />
+      <file file_name="../nRF_Lib/components/libraries/fstorage/nrf_fstorage_sd.c" />
+      <file file_name="../nRF_Lib/components/libraries/fds/fds.c" />
+      <file file_name="../nRF_Lib/components/libraries/uart/app_uart_fifo.c" />
+      <file file_name="../nRF_Lib/components/libraries/strerror/nrf_strerror.c" />
+      <file file_name="../nRF_Lib/components/libraries/experimental_section_vars/nrf_section_iter.c" />
+      <file file_name="../nRF_Lib/components/libraries/experimental_memobj/nrf_memobj.c" />
+      <file file_name="../nRF_Lib/components/libraries/atomic_fifo/nrf_atfifo.c" />
+      <file file_name="../nRF_Lib/components/libraries/balloc/nrf_balloc.c" />
+      <file file_name="../nRF_Lib/external/fprintf/nrf_fprintf.c" />
+      <file file_name="../nRF_Lib/external/fprintf/nrf_fprintf_format.c" />
+      <file file_name="../nRF_Lib/components/libraries/util/app_error.c" />
+      <file file_name="../nRF_Lib/components/libraries/util/app_error_weak.c" />
+      <file file_name="../nRF_Lib/components/libraries/util/app_util_platform.c" />
+      <file file_name="../nRF_Lib/components/libraries/util/sdk_mapped_flags.c" />
+      <file file_name="../nRF_Lib/components/libraries/uart/retarget.c" />
+      <file file_name="../nRF_Lib/components/libraries/pwr_mgmt/nrf_pwr_mgmt.c" />
+      <file file_name="../nRF_Lib/components/libraries/util/nrf_assert.c" />
+      <file file_name="../nRF_Lib/components/libraries/timer/app_timer.c" />
+      <file file_name="../nRF_Lib/components/libraries/scheduler/app_scheduler.c" />
+    </folder>
+    <folder Name="nRF_Lib/log">
+      <file file_name="../nRF_Lib/components/libraries/experimental_log/src/nrf_log_default_backends.c" />
+      <file file_name="../nRF_Lib/components/libraries/experimental_log/src/nrf_log_frontend.c" />
+      <file file_name="../nRF_Lib/components/libraries/experimental_log/src/nrf_log_str_formatter.c" />
+      <file file_name="../nRF_Lib/components/libraries/experimental_log/src/nrf_log_backend_rtt.c" />
+      <file file_name="../nRF_Lib/components/libraries/experimental_log/src/nrf_log_backend_serial.c" />
+    </folder>
+    <folder Name="nRF_Lib/segger_RTT">
+      <file file_name="../nRF_Lib/external/segger_rtt/SEGGER_RTT.c" />
+      <file file_name="../nRF_Lib/external/segger_rtt/SEGGER_RTT_printf.c" />
+      <file file_name="../nRF_Lib/external/segger_rtt/SEGGER_RTT_Syscalls_KEIL.c" />
+    </folder>
+    <folder Name="nRF_Lib/softdevice">
+      <file file_name="../nRF_Lib/components/softdevice/common/nrf_sdh_soc.c" />
+      <file file_name="../nRF_Lib/components/softdevice/common/nrf_sdh.c" />
+      <file file_name="../nRF_Lib/components/softdevice/common/nrf_sdh_ble.c" />
+    </folder>
+    <folder Name="nRF_Lib/components/device">
+      <file file_name="../nRF_Lib/components/device/nrf52.h" />
+    </folder>
+    <configuration
+      Name="External Keil ARMCLANG"
+      asm_additional_options="--cpu=Cortex-M4"
+      c_additional_options="-mcpu=Cortex-M4;-O3;-g"
+      linker_additional_options="--cpu=Cortex-M4" />
+    <configuration
+      CMSIS_CORE="Yes"
+      Name="Target 1 Internal"
+      c_preprocessor_definitions="BOARD_CUSTOM;USE_APP_CONFIG;NRF52;NRF52832_XXAA;NRF52_PAN_74;NRF_SD_BLE_API_VERSION=5;S132;SOFTDEVICE_PRESENT;SWI_DISABLE0;CONFIG_GPIO_AS_PINRESET;REGION_AU915"
+      c_user_include_directories="../../nRF_Lib/components/toolchain/cmsis/include;../../Apps;../../Board;../../Board/lora_board;../../Board/peripherals;../../LoRa_Lib/mac;../../LoRa_Lib/mac/region;../../LoRa_Lib/radio;../../LoRa_Lib/radio/sx1276;../../LoRa_Lib/system;../../LoRa_Lib/system/crypto;../../nRF_Lib/external/fprintf;../../nRF_Lib/external/segger_rtt;../../nRF_Lib/components/boards;../../nRF_Lib/components/device;../../nRF_Lib/components/ble/ble_services/ble_nus;../../nRF_Lib/components/toolchain;../../nRF_Lib/components/softdevice/common;../../nRF_Lib/components/softdevice/s132/headers;../../nRF_Lib/components/softdevice/s132/headers/nrf52;../../nRF_Lib/components/drivers_nrf/clock;../../nRF_Lib/components/drivers_nrf/common;../../nRF_Lib/components/drivers_nrf/gpiote;../../nRF_Lib/components/drivers_nrf/rtc;../../nRF_Lib/components/drivers_nrf/spi_master;../../nRF_Lib/components/drivers_nrf/timer;../../nRF_Lib/components/drivers_nrf/uart;../../nRF_Lib/components/drivers_nrf/twi_master;../../nRF_Lib/components/libraries/balloc;../../nRF_Lib/components/libraries/bsp;../../nRF_Lib/components/libraries/util;../../nRF_Lib/components/libraries/button;../../nRF_Lib/components/libraries/experimental_log;../../nRF_Lib/components/libraries/experimental_memobj;../../nRF_Lib/components/libraries/fds;../../nRF_Lib/components/libraries/fifo;../../nRF_Lib/components/libraries/fstorage;../../nRF_Lib/components/libraries/uart;../../nRF_Lib/components/libraries/experimental_section_vars;../../nRF_Lib/components/drivers_nrf/hal;../../nRF_Lib/components/libraries/strerror;../../nRF_Lib/components/libraries/experimental_log/src;../../nRF_Lib/components/libraries/timer;../../nRF_Lib/components/drivers_nrf/delay;../../nRF_Lib/components/libraries/atomic;../../nRF_Lib/components/libraries/pwr_mgmt;../../nRF_Lib/components/ble/common;../../nRF_Lib/components/libraries/mutex;../../nRF_Lib/components/ble/ble_advertising;../../nRF_Lib/components/drivers_nrf/wdt;../../nRF_Lib/components/ble/nrf_ble_gatt;../../nRF_Lib/components/libraries/mem_manager;../../nRF_Lib/components/ble/ble_db_discovery;../../nRF_Lib/components/ble/peer_manager;../../nRF_Lib/components/libraries/atomic_fifo."
+      link_linker_script_file="C:/Users/Matt/Documents/GitHub/RAK813-BreakBoard/nRF_Lib/components/toolchain/gcc/nrf52_common.ld" />
+  </project>
+  <configuration Name="Internal" hidden="Yes" />
+  <configuration
+    Name="Target 1 Internal"
+    arm_assembler_variant="SEGGER"
+    inherited_configurations="Internal;Target 1" />
+</solution>
